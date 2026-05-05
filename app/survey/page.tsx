@@ -253,6 +253,15 @@ export default function SurveyPage() {
                 />
               </Field>
               <Field label="Files">
+                <div className="border-l-2 border-line pl-3 mb-4">
+                  <p className="text-[10px] tracking-widest uppercase text-bone mb-1">
+                    Note from ross
+                  </p>
+                  <p className="text-[13px] text-cloud leading-relaxed">
+                    I&apos;m seeing some glitches with the file uploader. If yours fails,
+                    just WhatsApp the files over and move on, I&apos;ll attach them on my end.
+                  </p>
+                </div>
                 <FileDrop
                   files={answers.files}
                   onChange={(v) => set('files', v)}

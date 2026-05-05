@@ -2,7 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'ai powered — Case Study',
+  metadataBase: new URL('https://programme-feedback.aipowered.xyz'),
+  title: 'ai powered, case study',
   description: 'End of cohort feedback and case study capture for ai powered.',
   robots: { index: false, follow: false },
 };
